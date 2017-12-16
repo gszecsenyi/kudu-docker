@@ -1,0 +1,3 @@
+# Packages for Cloudera's Distribution for Hadoop, Version 5, on Ubuntu 16.04 amd64       
+deb [arch=amd64] http://archive.cloudera.com/kudu/ubuntu/xenial/amd64/kudu xenial-kudu5.11.0 contrib
+deb-src http://archive.cloudera.com/kudu/ubuntu/xenial/amd64/kudu xenial-kudu5.11.0 contrib

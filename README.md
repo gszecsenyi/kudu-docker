@@ -49,6 +49,11 @@ docker run -d --name kudu-tserver -p 8050:8050 --link kudu-master \
   -e KUDU_MASTER=kudu-master kunickiaj/kudu tserver
 ```
 
+### Starting both, together
+```bash
+docker run --name kudu-master -p 8051:8051 -p 8050:8050 kunickiaj/kudu single
+```
+
 ### Tailing the logs
 ```bash
 docker logs -f kudu-master
